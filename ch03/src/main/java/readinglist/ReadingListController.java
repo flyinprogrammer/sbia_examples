@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @Controller
 @RequestMapping("/")
-@ConfigurationProperties("amazon")
 public class ReadingListController {
 
 	private ReadingListRepository readingListRepository;
